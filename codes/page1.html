@@ -1,4 +1,5 @@
 
+
 <html>
       <head>
               <title>Grid1</title>
@@ -11,6 +12,7 @@
 <style>
 * {
   box-sizing: border-box;
+  
 }
 
 .brand {
@@ -68,7 +70,7 @@ h1{
   
     transition: transform .2s;
   width: 100%;
-
+  height:auto;
 
 }
 
@@ -77,7 +79,7 @@ h1{
 
   
   width:50px;
- 
+ height:auto;
 }
 .icon{
   background-color: antiquewhite;
@@ -86,10 +88,14 @@ h1{
 header{
   margin-top: 1.0rem;
 }
+.container{
+width: 100%;
+height:auto;
 
+}
   </style>
   <body>
-      <div class="container">
+      <section class="container">
 
 
         <header>
@@ -125,6 +131,7 @@ header{
       </div>
 
         <!-- Photo Grid -->
+        <section class="grid_image">
       <div class="row row-no-gutters">
           <div class="col-xs-6  col-sm-6 col-md-3 ">
             <img src="./images/images1.jpg"   class="image">
@@ -181,10 +188,10 @@ header{
           <img src="./images/images4.jpg"   class="image">
         </div>
       </div> 
+</section>
 
 
-
-    <div class=" footer text-white bg-dark">
+    <section class=" footer text-white bg-dark">
  
       <div class="container">
           <div class="row justify-content-center">
@@ -227,9 +234,8 @@ header{
     
     
     
-      </div>
-    </div>
+      </section>
+    </section>
 
         </body>
-
-    </html>
+</html>
